@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Ballenius</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&amp;family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&amp;subset=latin&amp;display=swap" rel="stylesheet">
+		<!-- Bootstrap 4.5.0 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<!-- Startup CSS (Styles for all blocks) - Remove ".min" if you would edit a css code -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/custom.css" rel="stylesheet" />
+		<!-- jQuery 3.5.1 -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	</head> 
+	<body>
+		<!-- Navigation 2 -->
+		<nav class="nav-menu bg-light lh-40 navigation_2">
+			<div class="container px-xl-0">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-xl-2 col-lg-3 text-center text-lg-left">
+						<img src="/assets/ballenius-logo.svg" class="brand-logo">
+						<a href="#" class="brand link mr-20 color-main f-24 bold">Ballenius</a>
+					</div>
+					<div class="col-xl-10 col-lg-9 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+						<div class="text-md-right">
+							<a href="#why" class="link mr-15 color-main">Purpose</a>
+							<a href="#features" class="link mx-15 color-main">Features</a>
+							<!-- <a href="#" class="link mx-15 color-main">Pricing</a> -->
+							<a href="https://app.ballenius.com/login" target="_blank" rel="noopener noreferrer" class="btn mx-15 sm color-main border-gray f-16">Log In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section id="hero">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+				  <div data-aos="zoom-out">
+					<h1>Your Task Manager</h1>
+					<h3>A simple way to handle your activities</h3>
+					<div class="text-center text-lg-left">
+						<!-- <p>Available for</p> -->
+						<div class="hero-icons">
+							<i class="fab fa-chrome fa-3x"></i>
+							<i class="fab fa-windows fa-3x"></i>
+							<i class="fab fa-android fa-3x"></i>
+							<i class="fab fa-apple fa-3x"></i>
+						</div>
+					</div>
+					<!-- <div class="text-center text-lg-left">
+					  <a href="#about" class="btn-get-started scrollto">Install on Windows</a>
+					</div> -->
+				  </div>
+				</div>
+				<div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+				  <img src="assets/hero-img.png" class="img-fluid animated" alt="">
+				</div>
+			  </div>
+			</div>
+		
+			<svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+			  <defs>
+				<path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+			  </defs>
+			  <g class="wave1"><use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)"></g>
+			  <g class="wave2"><use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"></g>
+			  <g class="wave3"><use xlink:href="#wave-path" x="50" y="9" fill="#fff"></g>
+			</svg>
+		</section>
+		<!-- End Hero -->
+
+
+		<!-- Content 2 -->
+		<!-- <section class="pt-105 pb-95 bg-light content_2">
+			<div class="container px-xl-0 text-center">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<h2 class="">Your Task Manager</h2>
+					</div>
+					<div class="col-xl-7 col-lg-9 col-md-10">
+						<div class="mt-35 f-18 medium color-heading op-7 text-adaptive">
+							<div>
+								More than ToDo List. We bring you a simple, clean and multi device task manager. 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Purpose -->
+		<section id="why" class="pt-105 pb-45 bg-light feature_2">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<h2 class="small">Why we do it?</h2>
+						<div class="mt-35 mb-65 f-22 color-heading text-adaptive description">
+							We believe that we don't need a toDo app with a lot of functionality and configurations, we need just a piece of paper with the versatility of the digital world.
+							we believe that we can handle our daily activities without carrying a notebook.
+							We want a simple way to know if what we do and what should be do it's the same.
+						</div>
+					</div>
+					<div class="col-xl-8 col-lg-10">
+						<h2 class="small">How we do it?</h2>
+						<div class="mt-35 mb-65 f-22 color-heading text-adaptive description">
+							People who works as a freelance, entrepeneure, creatives, home offices, incoworkers and digital nomadas as us need a way to stay in the right path (no procrestination).
+							We start using Design Thinking and develop a simple task manager with special atention in "what task are the most important"
+						</div>
+					</div>
+					<div class="col-xl-8 col-lg-10">
+						<h2 class="small">What expect?</h2>
+						<div class="mt-35 mb-65 f-22 color-heading text-adaptive description">
+							<ul>
+								<li>Stay focus in the priority task</li>
+								<li>Check if what you did is that you had to do</li>
+								<li>Keep the thinkgs simple</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Feature 2 -->
+		<!-- <section class="pt-105 pb-45 bg-light text-center feature_2">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<h2 class="small">Why We Do It?</h2>
+						<div class="mt-35 mb-65 f-22 color-heading text-adaptive description">
+							Why create another ToDo List, there are many ToDo Apps...
+							What's our difference...
+						</div>
+					</div>
+					<div class="col-xl-10">
+						<div class="row justify-content-center">
+							<div class="mb-50 col-md-4 col-sm-8">
+								<div class="mb-20 f-18 medium title">Why</div>
+								<div class="color-heading text-adaptive">
+									We believe that we don't need a toDo app with a lot of functionality and configurations, we need just a piece of paper with the versatility of the digital world.
+									we believe that we can handle our daily activities without carrying a notebook.
+									We want a simple way to know if what we do and what should be do it's the same.
+								</div>
+							</div>
+							<div class="mb-50 col-md-4 col-sm-8">
+								<div class="mb-20 f-18 medium title">How</div>
+								<div class="color-heading text-adaptive">
+									Edit content in a comfortable <br>
+									manner. It's as simple as copy <br>
+									and paste.
+								</div>
+							</div>
+							<div class="mb-50 col-md-4 col-sm-8">
+								<div class="mb-20 f-18 medium title">What</div>
+								<div class="color-heading text-adaptive">
+									Easily change and tweak your <br>
+									content when you need to, <br>
+									however you want. No more third <br>
+									party vendor lock-in.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Feature 1 -->
+		<section id="features" class="pt-105 pb-45 bg-light text-center feature_1">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<div class="col-xl-10">
+						<h2 class="mb-45 small">Awe-inspiring Features</h2>
+						<div class="row justify-content-center">
+							<div class="col-md-4 mb-50">
+								<i class="fas fa-sync-alt fa-3x"></i>
+								<div class="mt-20 mb-25 f-22 title">Stay your Data Sync</div>
+								<div class="color-heading text-adaptive">
+									All your lists be always sync in all your devices.
+								</div>
+							</div>
+							<div class="col-md-4 mb-50">
+								<!-- <i class="fas fa-compress-arrows-alt fa-3x"></i> -->
+								<i class="fas fa-drafting-compass fa-3x"></i>
+								<div class="mt-20 mb-25 f-22 title">Responsive Layout</div>
+								<div class="color-heading text-adaptive">
+									Our simple desing has full mobile support also looks great in desktop too.
+								</div>
+							</div>
+							<div class="col-md-4 mb-50">
+								<!-- <i class="fas fa-desktop f-60 action-3"></i> -->
+								<i><img src="/assets/PWA.svg" style="height: 3em;"></i>
+								<div class="mt-20 mb-25 f-22 title">Progresive Web App</div>
+								<div class="color-heading text-adaptive">
+									Use it in Chrome or if you prefer install on Android, IOs, Windows or Mac.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Application 2 -->
+		<section class="pt-65 pb-65 bg-light application_2">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center justify-content-md-between align-items-center">
+					<div class="mb-15 mb-md-0 col-12 col-md-5 col-xl-6 d-flex justify-content-center">
+						<img src="assets/application_2_img_1.png" srcset="assets/application_2_img_1@2x.png 2x" alt="" class="img-fluid application_2_left_img" />
+					</div>
+					<div class="col-md-7 col-xl-6">
+						<h2 class="col-lg-11 color-main">Astonishing and Simple Features</h2>
+						<div class="mt-25 col-lg-9 color-heading f-18 text-adaptive">Use it from your browser, install in your PC, Mac or any mobile device with Android or IOs.
+						</div>
+						<div class="mt-95 row">
+							<div class="col-6 col-lg-4 pb-25 with_borders">
+								<i class="fas fa-th-large fa-2x"></i>
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">List like Eisenhower Time Management Matrix</div>
+							</div>
+							<div class="col-6 col-lg-4 pb-25 with_borders">
+								<i class="fas fa-chart-pie fa-2x"></i>
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">To-do charts by list</div>
+							</div>
+							<div class="col-6 col-lg-4 pb-25 with_borders">
+								<!-- <i class="fas fa-bolt fa-2x"></i> -->
+								<i class="fas fa-globe-americas fa-2x"></i> 
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Always available</div>
+							</div>
+							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
+								<i class="fas fa-palette fa-2x"></i>
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Lists by Colors</div>
+							</div>
+							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
+								<i class="fas fa-dollar-sign fa-2x"></i>
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Free Version</div>
+							</div>
+							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
+								<!-- <i class="fas fa-sync-alt fa-2x"></i> -->
+								<i class="fas fa-cloud-upload-alt fa-2x"></i>
+								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Continues Updates</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimonial 1 -->
+		<!-- <section class="pt-80 pb-80 bg-light testimonial_1">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<div class="col-xl-10 col-lg-11">
+						<div class="hr bg-gray h-2">
+						</div>
+					</div>
+				</div>
+				<div class="row pt-30 pb-50 inner">
+					<div class="col-xl-2 col-lg-1">
+					</div>
+					<div class="col-md-1 col-sm-2">
+						<i class="fas fa-quote-left f-36 color-gray"></i>
+					</div>
+					<div class="col-xl-7 col-lg-8 col-sm-10">
+						<div class="pt-10 f-22 text-adaptive">
+							The matrix into the list helps me to management my time better and the interface is very clean.
+						</div>
+						<div class="mt-20 d-flex align-items-center author_info">
+							<img src="assets/testimonial_1_img.jpg" srcset="assets/testimonial_1_img@2x.jpg 2x" alt="" class="w-60 h-60 radius_full" />
+							<div class="ml-15 color-heading f-14 semibold text-uppercase sp-20">Quethzel Diaz, Developer</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-10 col-lg-11">
+						<div class="hr bg-gray h-2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Pricing table 1 -->
+		<!-- <section class="pt-105 pb-100 bg-light text-center pricing_table_1">
+			<div class="container px-xl-0">
+				<h2 class="small">Pricing Plans</h2>
+				<div class="mt-15 mb-60 f-22 color-heading text-adaptive">
+					Start with free trial. No credit card needed. Cancel at anytime.
+				</div>
+				<div class="row align-items-start no-gutters">
+					<div class="col-lg-3">
+						<div class="pt-45 radius10 noradius_right noborder_right block">
+							<div class="f-22 title">Free</div>
+							<div class="mt-10 mb-35 color-heading subtitle">Forever Free</div>
+							<div>
+								<div class="d-inline-block f-58 relative price">
+									<span class="absolute f-16">$</span>
+									<b class="">0</b>
+								</div>
+							</div>
+							<div>
+								<a href="#" class="btn mt-40 mb-40 border-gray color-main">Get Started for Free</a>
+							</div>
+							<div class="item">1 GB of Space</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="pt-45 noborder_right block">
+							<div class="f-22 title">Starter</div>
+							<div class="mt-10 mb-35 color-heading subtitle">Perfect for Freelancers</div>
+							<div>
+								<div class="d-inline-block f-58 relative price">
+									<span class="absolute f-16">$</span>
+									<b class="">19</b>
+								</div>
+							</div>
+							<div>
+								<a href="#" class="btn mt-40 mb-40 action-1">Get Started</a>
+							</div>
+							<div class="item">10 GB of Space</div>
+							<div class="item">Unlimited Projects</div>
+							<div class="item">Unlimited Users</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="pt-45 noborder_right block">
+							<div class="f-22 title">Pro</div>
+							<div class="mt-10 mb-35 color-heading subtitle">Perfect for Small Team</div>
+							<div>
+								<div class="d-inline-block f-58 relative price">
+									<span class="absolute f-16">$</span>
+									<b class="">49</b>
+								</div>
+							</div>
+							<div>
+								<a href="#" class="btn mt-40 mb-40 border-gray color-main">Get Started</a>
+							</div>
+							<div class="item">100 GB of Space</div>
+							<div class="item">Unlimited Projects</div>
+							<div class="item">Unlimited Users</div>
+							<div class="item">Unlimited Dates</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="pt-45 radius10 noradius_left block">
+							<div class="f-22 title">Premium</div>
+							<div class="mt-10 mb-35 color-heading subtitle">Forever Free</div>
+							<div>
+								<div class="d-inline-block f-58 relative price">
+									<span class="absolute f-16">$</span>
+									<b class="">149</b>
+								</div>
+							</div>
+							<div>
+								<a href="#" class="btn mt-40 mb-40 border-gray color-main">Get Started</a>
+							</div>
+							<div class="item">As Much Space as Needed</div>
+							<div class="item">Unlimited Projects</div>
+							<div class="item">Unlimited Users</div>
+							<div class="item">Unlimited Dates</div>
+							<div class="item">Unlimited File Recovery</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Footer 1 -->
+		<footer class="pt-75 pb-65 bg-light text-center footer_1">
+			<div class="container px-xl-0">
+				<div class="row justify-content-between align-items-center lh-40 links">
+					<div class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0">
+						<a href="#" class="link mr-15 color-main">About</a>
+						<a href="#" class="link mx-15 color-main">Policy</a>
+						<a href="#" class="link mx-15 color-main">Terms</a>
+					</div>
+					<div class="mb-10 mb-lg-0 col-lg-auto order-0">
+						<a href="#" class="link logo color-main">Ballenius Task</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0">
+						<a href="#" class="mx-15 link color-main">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" class="mx-15 link color-main">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="ml-15 link color-main">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="mt-10 col-xl-4 col-lg-5 col-md-6 col-sm-8">
+						<div class="color-heading text-adaptive">
+							&copy; Copyright 2020, BALLENIUS TASK<br>
+							All right reserved
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- forms alerts -->
+		<!-- <div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Thanks for your message!
+		</div>
+		<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Please, fill in required fields.
+		</div>
+		<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
+		</div> -->
+
+		<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
+		<!--
+		<div class="bg-dark op-8 grecaptcha-overlay"></div>
+		<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
+			<div class="w-full h-full d-flex justify-content-center align-items-center">
+				<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+			</div>
+		</div>
+		<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+		-->
+		<!-- Bootstrap 4.5.0 JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+		<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<!-- 
+			Google maps JS API 
+			Don't forget to replace the key "AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U" to your own! 
+			Learn how to get a key: https://help.designmodo.com/article/startup-google-maps-api/ 
+		-->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+		<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<!-- Startup JS (Custom js for all blocks) -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
