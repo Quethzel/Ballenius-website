@@ -10,10 +10,13 @@
 }
 
 .hero-icons {
-    color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 .hero-icons i {
     margin: auto 13px;
+}
+.hero-icons i:hover {
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Hero Section
