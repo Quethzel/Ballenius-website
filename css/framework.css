@@ -4855,14 +4855,6 @@ input[type=radio] + label:before {
   padding-top: 445px;
 }
 
-.pb-445 {
-  padding-bottom: 445px;
-}
-
-.pr-445 {
-  padding-right: 445px;
-}
-
 .pl-445 {
   padding-left: 445px;
 }

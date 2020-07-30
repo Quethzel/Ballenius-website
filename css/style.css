@@ -1,24 +1,5 @@
-@import 'framework.css';
-/* THIS IS A FREE VERSION OF STARTUP! */
-/* 
-	Table of contents:
-	1. Common styles
-	2. Common responsive styles
-	3. Headers
-	4. Navigations
-	5. Contents
-	6. Testimonials
-	7. Features
-	8. Forms
-	9. Call to Actions
-	10. Teams
-	11. Pricing Tables
-	12. Contacts
-	13. Showcases
-	14. Footers
-	15. Ecommerce
-	16. Applications
-*/
+@import 'framework.min.css';
+
 /* 1. Common styles */
 body {
   font-family: DM Sans, Helvetica, Arial, sans-serif;
