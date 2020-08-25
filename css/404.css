@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#p404 {
+    display: flex;
+    align-items: center;
+}
+
+#logo-404 {
+    width: 200px;
+    height: auto;
+}

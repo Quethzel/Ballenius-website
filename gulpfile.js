@@ -5,14 +5,6 @@ const cleanCss = require('gulp-clean-css');
 const htmlReplace = require('gulp-html-replace');
 const del = require('del');
 
-function cleanJsFiles() {
-    return del(['public/js/*.js']);
-}
-
-function cleanCssFiles() {
-    return del(['public/css/*.css']);
-}
-
 function cleanPublicFolder() {
     return del(['public/*']);
 }
@@ -24,7 +16,7 @@ function minifyJs() {
 }
 
 function minifyCss() {
-    return src(['css/framework.css', 'css/style.css', 'css/custom.css'], {allowEmpty: true })
+    return src(['css/framework.css', 'css/style.css', 'css/custom.css', 'css/404.css'], {allowEmpty: true })
     .pipe(concat('stylesheet.css'))
     .pipe(cleanCss())
     .pipe(dest('public/css'))
@@ -32,8 +24,12 @@ function minifyCss() {
 
 function copyAssets() {
     return src('assets/*')
-    // .pipe(imagemin())
     .pipe(dest('public/assets'));
+}
+
+function copyHtml() {
+    return src('*.html')
+    .pipe(dest('public'));
 }
 
 function replaceIndexRef() {
@@ -45,12 +41,22 @@ function replaceIndexRef() {
     .pipe(dest('public'));
 }
 
+function replaceRef404() {
+    return src('404-page.html')
+    .pipe(htmlReplace({
+        'css': 'css/stylesheet.css',
+    }))
+    .pipe(dest('public'));
+}
+
 exports.default = series(
     cleanPublicFolder,
     parallel(
         copyAssets,
         minifyCss,
-        minifyJs
+        minifyJs,
+        copyHtml
     ),
-    replaceIndexRef
+    replaceIndexRef,
+    replaceRef404
 )
