@@ -4,3 +4,4 @@ css/framework.min.css
 css/style.min.css
 js/script.min.js
 node_modules/
+package-lock.json
